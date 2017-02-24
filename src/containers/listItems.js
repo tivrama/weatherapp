@@ -4,7 +4,6 @@ import GoogleMap from '../components/map';
 
 class List extends Component {
   renderWeather(zip) {
-    console.log('zip: ', zip);
     const name = zip.name;
     const weather = zip.weather[0].description;
     const { lon, lat } = zip.coord;
